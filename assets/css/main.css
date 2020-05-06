@@ -384,6 +384,9 @@ ul li {
 .about figure {
   margin-bottom: 25px;
 }
+.about {
+  background-color: #ecebed;
+}
 
 /*
  * 6.2 Section: Facts
@@ -437,7 +440,7 @@ ul li {
 
 .contact {
   text-align: left;
-  color: #f0f6f5;
+  color: #5c5454;
 }
 /*
  * 6.6 Section: Schedule
@@ -469,8 +472,8 @@ ul li {
 .partner .partner-box {
   display: block;
   opacity: 0.3;
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   margin: 25px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
