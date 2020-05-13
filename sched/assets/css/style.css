@@ -8769,6 +8769,26 @@ mark {
   --cd-color-event-4-h:31;
   --cd-color-event-4-s:89%;
   --cd-color-event-4-l:68%;
+  --cd-color-event-5:hsl(101, 36%, 49%);
+  --cd-color-event-5-h:101;
+  --cd-color-event-5-s:36%;
+  --cd-color-event-5-l:49%;
+  --cd-color-event-6:hsl(0, 66%, 61%);
+  --cd-color-event-6-h:0;
+  --cd-color-event-6-s:66%;
+  --cd-color-event-6-l:61%;
+  --cd-color-event-7:hsl(31, 93%, 23%);
+  --cd-color-event-7-h:31;
+  --cd-color-event-7-s:93%;
+  --cd-color-event-7-l:23%;
+  --cd-color-event-8:hsl(300, 100%, 65%);
+  --cd-color-event-8-h:300;
+  --cd-color-event-8-s:100%;
+  --cd-color-event-8-l:65%;
+  --cd-color-event-9:hsl(101, 34%, 65%);
+  --cd-color-event-9-h:101;
+  --cd-color-event-9-s:34%;
+  --cd-color-event-9-l:65%;
   --cd-color-text:hsl(0, 0%, 13%);
   --cd-color-text-h:0;
   --cd-color-text-s:0%;
@@ -8778,8 +8798,8 @@ mark {
   --cd-color-border-s:0%;
   --cd-color-border-l:92%;
   --font-primary: "Source Sans Pro", sans-serif;
-  --schedule-rows-number: 22;
-  --schedule-rows-height: 50px;
+  --schedule-rows-number: 23;
+  --schedule-rows-height: 60px;
 }
 
 /*body {
@@ -9001,13 +9021,11 @@ a {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.cd-schedule__name,
 .cd-schedule-modal__name {
   font-size: var(--text-lg);
 }
 @media (min-width: 64rem) {
-  .cd-schedule__name,
-.cd-schedule-modal__name {
+  .cd-schedule-modal__name {
     font-size: calc(var(--text-sm)*1.2);
   }
 }
@@ -9043,6 +9061,31 @@ a {
 .cd-schedule__event [data-event=event-4],
 .cd-schedule-modal[data-event=event-4] .cd-schedule-modal__header-bg {
   background: var(--cd-color-event-4);
+}
+
+.cd-schedule__event [data-event=event-5],
+.cd-schedule-modal[data-event=event-5] .cd-schedule-modal__header-bg {
+  background: var(--cd-color-event-5);
+}
+
+.cd-schedule__event [data-event=event-6],
+.cd-schedule-modal[data-event=event-6] .cd-schedule-modal__header-bg {
+  background: var(--cd-color-event-6);
+}
+
+.cd-schedule__event [data-event=event-7],
+.cd-schedule-modal[data-event=event-7] .cd-schedule-modal__header-bg {
+  background: var(--cd-color-event-7);
+}
+
+.cd-schedule__event [data-event=event-8],
+.cd-schedule-modal[data-event=event-8] .cd-schedule-modal__header-bg {
+  background: var(--cd-color-event-8);
+}
+
+.cd-schedule__event [data-event=event-9],
+.cd-schedule-modal[data-event=event-9] .cd-schedule-modal__header-bg {
+  background: var(--cd-color-event-9);
 }
 
 .cd-schedule-modal {
